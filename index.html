@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat-Realtime Node Socket.io Chat App</title>
+
+
+  <link rel="stylesheet" href="style.css" class="css">
+
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="js/client.js"></script>
+
+</head>
+
+<body>
+  <nav>
+    <h1>Boomer Welcomes You To Farm Tech</h1>
+    <img class="logo" src="img/download.png" alt="chat">
+  </nav>
+  <div class="container">
+    <div class="message right">Hello Sir! Do you need any help?</div>
+    <div class="message left">Ya, I want to know where is government policies article available.</div>
+  </div>
+
+  <div class="send">
+    <form action="#" id="send-container">
+      <input type="text" name="messageInp" id="messageInp">
+      <button class="btn" type="submit">Send</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
